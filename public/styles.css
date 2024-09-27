@@ -1,0 +1,91 @@
+body {
+    background-color: #121213;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#image-container img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.wordle-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.wordle-cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #565758;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 5px;
+    color: white;
+    background-color: #121213;
+}
+
+.wordle-cell:last-child {
+    margin-right: 0;
+}
+
+.input-cell {
+    border-color: #888; /* Diferente color para las casillas de input */
+}
+
+.correct-letter {
+    background-color: #6aaa64; /* Verde para letras correctas */
+}
+
+.wrong-position {
+    background-color: #c9b458; /* Amarillo para letras en lugar incorrecto */
+}
+
+.wrong-letter {
+    background-color: #787c7e; /* Gris para letras incorrectas */
+}
+
+
+#guess-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #565758;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #787c7e;
+}
+
+#attempts {
+    margin-top: 20px;
+}
+
+#result-container {
+    margin-top: 20px;
+}

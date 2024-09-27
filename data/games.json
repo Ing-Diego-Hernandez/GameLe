@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Mario Galaxy",
+        "image": "game1.jpg"
+    },
+    {
+        "name": "The Legend of Zelda",
+        "image": "game2.jpg"
+    },
+    {
+        "name": "Call of Duty",
+        "image": "game3.jpg"
+    },
+    {
+        "name": "Fortnite",
+        "image": "game4.jpg"
+    },
+    {
+        "name": "Minecraft",
+        "image": "game5.jpg"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "image": "game6.jpg"
+    },
+    {
+        "name": "Gears of war",
+        "image": "game7.jpg"
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "image": "game8.jpg"
+    },
+    {
+        "name": "League of Legends",
+        "image": "game9.jpg"
+    },
+    {
+        "name": "The Witcher",
+        "image": "game10.jpg"
+    }
+
+]
